@@ -3,7 +3,7 @@ import Ipod from "./Ipod";
 import ZingTouch from "zingtouch";
 import Helmet from "react-helmet";
 
-// importing images from assets
+// importing images
 import images from "./images/images";
 // importing songs and thumbnails
 import songs from "./songs/songs";

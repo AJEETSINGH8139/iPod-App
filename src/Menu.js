@@ -105,7 +105,7 @@ const Menu = (props) => {
 			style={styles.menu}
 		>
 			<div className="ipod-title" style={styles.title}>
-				<p style={{ borderRadiusTopLeft: "10%" }}>Mini Ipod App</p>
+				<p style={{ borderRadiusTopLeft: "10%" }}>iPod App</p>
 			</div>
 			{RenderMenu}
 		</div>
@@ -115,7 +115,7 @@ const Menu = (props) => {
 
 const styles = {
 	title: {
-		fontSize: "1.3rem",
+		fontSize: "2rem",
 		display: "flex",
 		justifyContent: "center",
 		alignItems: "center",
@@ -127,7 +127,7 @@ const styles = {
 		textTransform: "capitalize",
 	},
 	menu: {
-		backgroundColor: "lightcyan",
+		backgroundColor: "#ddf1f4",
 		borderRadiusTopLeft: "10%",
 	},
 };
